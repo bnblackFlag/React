@@ -1,0 +1,9 @@
+.header {
+    background: coral;
+    width: 100vh;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
