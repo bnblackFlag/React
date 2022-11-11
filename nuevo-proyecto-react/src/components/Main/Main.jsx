@@ -1,9 +1,14 @@
 import React from 'react'
+import Button from '../Button/Button'
 import './Main.css'
 
-const Main = () => {
+const Main = ({text} ) => {
   return (
-    <div className='main'>Main</div>
+    <div className='main'>
+      <h1>{text}</h1>
+      <Button variante="cancelar" text="Cancelar" />
+      <Button variante="confirmar" text="Confirmar"/>
+    </div>
   )
 }
 

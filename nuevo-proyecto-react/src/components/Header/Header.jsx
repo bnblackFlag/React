@@ -1,9 +1,11 @@
 import React from 'react'
 import './Header.css'
 
-const Header = () => {
+const Header = ({tittle, color}) => {
   return (
-    <div className='header'>Header</div>
+    <div className={color}>
+        <h1>{tittle}</h1>
+    </div>
   )
 }
 

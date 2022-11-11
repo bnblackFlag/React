@@ -10,11 +10,11 @@ import './Home.css'
 const Home = () => {
   return (
     <div className='home'>
-    <Header></Header>
-    <Navbar></Navbar>
-    <Aside></Aside>
-    <Main></Main>
-    <Footer></Footer>
+    <Header tittle="Home" color="blue"/>
+    <Navbar/>
+    <Aside/>
+    <Main text="Pagina Main"/>
+    <Footer/>
     </div>
   )
 }
